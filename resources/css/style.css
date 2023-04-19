@@ -1,0 +1,49 @@
+
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  
+
+  
+    /* ----- ----- FOOTER ----- ----- */
+  footer .contacto {
+    padding: 60px 0; }
+    footer .contacto .titulo {
+      font-size: 34px;
+      line-height: 34px;
+      margin-bottom: 60px;
+      font-weight: 300;
+      color: black;
+      text-align: center; }
+   
+      footer .contacto .formulario .boton {
+        margin: auto;
+        background: #fcd34d;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 15px 40px; }
+        footer .contacto .formulario .boton:hover {
+          background: #387bea; }
+  
+  /* ----- ----- MEDIA QUERIES ----- ----- */
+  @media screen and (max-width: 800px) {
+    header .menu {
+      text-align: center; }
+  
+    .main .trabajos .contenedor-trabajos .trabajo {
+      width: 46%; } }
+  @media screen and (max-width: 500px) {
+    header .contenedor-texto .texto .nombre {
+      font-size: 35px; }
+    header .contenedor-texto .texto .profesion {
+      font-size: 18px; }
+  
+    footer .redes-sociales .contenedor {
+      flex-wrap: wrap; }
+      footer .redes-sociales .contenedor a {
+        padding: 20px; } }
+  
+  /*# sourceMappingURL=estilos.css.map */
