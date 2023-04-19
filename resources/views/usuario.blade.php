@@ -27,39 +27,28 @@
                <path d="M467.812 431.851l-36.629-61.056a181.363 181.363 0 01-25.856-93.312V224c0-67.52-45.056-124.629-106.667-143.04V42.667C298.66 19.136 279.524 0 255.993 0s-42.667 19.136-42.667 42.667V80.96C151.716 99.371 106.66 156.48 106.66 224v53.483c0 32.853-8.939 65.109-25.835 93.291L44.196 431.83a10.653 10.653 0 00-.128 10.752c1.899 3.349 5.419 5.419 9.259 5.419H458.66c3.84 0 7.381-2.069 9.28-5.397 1.899-3.329 1.835-7.468-.128-10.753zM188.815 469.333C200.847 494.464 226.319 512 255.993 512s55.147-17.536 67.179-42.667H188.815z" /></svg>
              </div>
             </div>
-            <div class="progress-status">12/34</div>
+            <div class="progress-status"></div>
             <div class="progress">
              <div class="progress-bar"></div>
             </div>
             <div class="task-status">
+             
+             
              <div class="task-stat">
-              <div class="task-number">12</div>
-              <div class="task-condition">Completed</div>
-              <div class="task-tasks">tasks</div>
-             </div>
-             <div class="task-stat">
-              <div class="task-number">22</div>
-              <div class="task-condition">To do</div>
-              <div class="task-tasks">tasks</div>
-             </div>
-             <div class="task-stat">
-              <div class="task-number">243</div>
-              <div class="task-condition">All</div>
-              <div class="task-tasks">completed</div>
+           
              </div>
             </div>
            </div>
            <div class="side-wrapper">
-            <div class="project-title">Projects</div>
+            <div class="project-title">Menu</div>
             <div class="project-name">
              <div class="project-department">Historial</div>
-             <div class="project-department">Design</div>
-             <div class="project-department">Development</div>
-             <div class="project-department">Management</div>
+             <div class="project-department">Consejos</div>
+             <div class="project-department">Nosotros</div>
             </div>
            </div>
            <div class="side-wrapper">
-            <div class="project-title">Team</div>
+            <div class="project-title">Nosotros</div>
             <div class="team-member">
              <img src="https://images.unsplash.com/flagged/photo-1574282893982-ff1675ba4900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="" class="members">
              <img src="https://assets.codepen.io/3364143/Screen+Shot+2020-08-01+at+12.24.16.png" alt="" class="members">
@@ -72,18 +61,16 @@
           <div class="main-area">
            <div class="header">
             <div class="search-bar">
-             <input type="text" placeholder="Search...">
+             <input type="text" placeholder="Buscar...">
             </div>
-            <div class="inbox-calendar">
-             <input type="checkbox" class="inbox-calendar-checkbox">
-             <div class="toggle-page">
-              <span>Inbox</span>
+            <div class="">
+            
+             <div class="">
+             
              </div>
-             <div class="layer"></div>
+             
             </div>
             <div class="color-menu">
-             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464.7 464.7"><path d="M446.6 18.1a62 62 0 00-87.6 0L342.3 35a23 23 0 10-32.5 32.5l5.4 5.4-180.6 180.6L71.9 316c-5 5-8 11.6-8.2 18.7l-.2 3.3-2.5 56.7a9.4 9.4 0 009.4 9.8h.4l30-1.3 18.4-.8 8.3-.4a37 37 0 0024.5-10.8l240.9-240.9 4.5 4.6a23 23 0 0032.5 0c9-9 9-23.6 0-32.6l16.7-16.7a62 62 0 000-87.6zm-174 209.2l-84.6 16 138-138 34.4 34.3-87.8 87.7zM64.5 423.9C28.9 423.9 0 433 0 444.3c0 11.3 28.9 20.4 64.5 20.4s64.5-9.1 64.5-20.4C129 433 100 424 64.5 424z"/></svg>
-              <input type="color" value="#4d76fd" class="colorpicker" id="colorpicker"></input>
             </div>
            </div>
            <div class="main-container">
@@ -91,9 +78,9 @@
              <div class="inbox">
               <div class="msg msg-department anim-y">
               Historial
-               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 492 492">
-                <path d="M484.13 124.99l-16.11-16.23a26.72 26.72 0 00-19.04-7.86c-7.2 0-13.96 2.79-19.03 7.86L246.1 292.6 62.06 108.55c-5.07-5.06-11.82-7.85-19.03-7.85s-13.97 2.79-19.04 7.85L7.87 124.68a26.94 26.94 0 000 38.06l219.14 219.93c5.06 5.06 11.81 8.63 19.08 8.63h.09c7.2 0 13.96-3.57 19.02-8.63l218.93-219.33A27.18 27.18 0 00492 144.1c0-7.2-2.8-14.06-7.87-19.12z"></path>
-               </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
+                  <path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2M10 11v6M14 11v6" /></svg>
+                
               </div>
               <div class="msg selected-bg anim-y">
                <input type="checkbox" name="msg" id="mail1" class="mail-choice" checked>
@@ -160,95 +147,343 @@
                </div>
               </div>
              </div>
-             <div class="add-task">
-              <button class="add-button">Mostrar mas</button>
-             </div>
+            
             </div>
             <div class="mail-detail">
              <div class="mail-detail-header">
               <div class="mail-detail-profile">
-               <div class="mail-detail-name">Comentarios</div>
+               <div class="mail-detail-name">CONSEJOS</div>
               </div>
               <div class="mail-icons">
-               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
-                <path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2M10 11v6M14 11v6" /></svg>
-               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
                 <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
                 <circle cx="12" cy="7" r="4" /></svg>
-               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag">
-                <path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82zM7 7h.01" /></svg>
-               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-square">
-                <path d="M9 11l3 3L22 4" />
-                <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" /></svg>
-               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-paperclip">
-                <path d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48" /></svg>
-              </div>
+            </div>
              </div>
              <div class="mail-contents">
               <div class="mail-contents-subject">
-               <input type="checkbox" name="msg" id="mail20" class="mail-choice" checked>
-               <label for="mail20"></label>
-               <div class="mail-contents-title">Write an article about design</div>
+               
               </div>
               <div class="mail">
-               <div class="mail-time">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
-                 <circle cx="12" cy="12" r="10" />
-                 <path d="M12 6v6l4 2" /></svg>
-                12 Mar, 2019
-               </div>
-               <div class="mail-inside">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan commodo lectus gravida dictum. Aliquam a dui eu arcu hendrerit porta sed in velit. Fusce eu semper magna. Aenean porta facilisis neque, ac dignissim magna vestibulum eu. Etiam id ligula eget neque placerat ultricies in sed neque. Nam vitae rutrum est. Etiam non condimentum ante, eu consequat orci. Aliquam a dui eu arcu hendrerit porta sed in velit. Fusce eu semper magna.</div>
-               <div class="mail-assign">
-                <div class="assignee">
-                 <strong>Okla Nowak</strong> assigned to Natalie Smith.
-                 <span class="assign-date">25 Nov, 2019</span>
-                </div>
-                <div class="assignee">
-                 <strong>Okla Nowak</strong> added to Marketing.
-                 <span class="assign-date">18 Feb, 2019</span>
-                </div>
-                <div class="assignee">
-                 <strong>Okla Nowak </strong> created task.
-                 <span class="assign-date">18 Feb, 2019</span>
-                </div>
-               </div>
+              
                <div class="mail-checklist">
-                <input type="checkbox" name="msg" id="mail30" class="mail-choice" checked>
-                <label for="mail30">Natalie completed this task.</label>
-                <div class="mail-checklist-date">19 May, 2020</div>
+                <label for="mail30">Ejercicio</label>
                </div>
+             
+               <div class="mail-inside">El ejercicio es una de las cosas más importantes que puedes hacer para combatir el estrés.<br>
+
+                Puede parecer contradictorio, pero poner el cuerpo en estrés físico mediante el ejercicio puede aliviar el estrés mental.<br>
+                Los beneficios son mayores cuando haces ejercicio regularmente.  Las personas que se ejercitan regularmente tienen menos probabilidad de experimentar ansiedad que aquellas que no lo hacen.
+                <br>Existen unas cuantas razones para esto:<br>
+                <ul style="list-style-image:url(corazon.png);">
+                  <li>Hormonas del estrés: A largo plazo, el ejercicio reduce las hormonas del estrés de tu cuerpo; como el cortisol. También ayuda a liberar endorfinas, las cuales son químicos que mejoran tu estado de ánimo y actúan como un analgésico natural.</li>
+                  <li> Sueño: El ejercicio también puede mejorar la calidad del sueño, el cual se puede ver afectado negativamente por el estrés y la ansiedad.</li>
+                  <li> Confianza: Cuando haces ejercicio regularmente, te puedes sentir más competente y seguro de tu cuerpo, lo que a la vez promueve el bienestar mental.</li>
+                </ul>
+                Intenta encontrar una rutina de ejercicios o actividad que disfrutes, como caminar, bailar, montañismo o hacer yoga.
+
+                <br>Las actividades, como caminar o trotar, que involucran movimientos repetitivos de grandes grupos de músculos pueden aliviar el estrés.
+               </div>
+               
+              
                <div class="mail-doc">
                 <div class="mail-doc-wrapper">
-                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
-                  <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
-                  <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" /></svg>
-                 <div class="mail-doc-detail">
-                  <div class="mail-doc-name">Article.docx</div>
-                  <div class="mail-doc-date">added 17 May, 2020</div>
-                 </div>
+                
                 </div>
                 <div class="mail-doc-icons">
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
-                  <path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2M10 11v6M14 11v6" /></svg>
-                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download-cloud">
-                  <path d="M8 17l4 4 4-4M12 12v9" />
-                  <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29" /></svg>
+               </div>
+               </div>
+              </div>
+            
+               <div class="mail">
+                <div class="mail-checklist">
+                  <label for="mail30">Enciende una vela</label>
+                
+                 </div>
+                
+                <div class="mail-inside">
+                  Los aceites esenciales o prender una vela aromática pueden ayudar a reducir tu sensación de estrés o ansiedad.
+<br>
+                  Algunos aromas son especialmente calmantes. Aquí puedes ver una lista de los aromas que más calman:
+                  <ul style="list-style-image:url(corazon.png);">
+                    <li>
+                      lavanda
+                    </li>
+                    <li> 
+                      rosas  
+                    </li>
+                    <li> 
+                      vetiver
+                    </li>
+                    <li>
+                      bergamota
+                    </li>
+                    <li> 
+                      camomila romana  
+                    </li>
+                    <li> 
+                      flores de naranja  
+                    </li>
+                    <li> 
+                      incienso  
+                    </li>
+                    <li> 
+                      sándalo
+                    </li>
+                    <li>
+                      ylang ylang
+                    </li>
+                    <li> 
+                      naranja o flor de azahar
+                    </li>
+                    <li> 
+                      geranio
+                    </li>
+                  </ul>
+                  Utilizar aromas para tratar tu estado de ánimo se llama aromaterapia. Varios estudios demuestran que la aromaterapia puede disminuir la ansiedad y mejorar el sueño.<br> Compra ashwagandha, suplementos de omega-3, té verde y bálsamo de limón en línea.
+                </div>
+                  
+               <div class="mail-doc">
+                <div class="mail-doc-wrapper">
+                
+                </div>
+                <div class="mail-doc-icons">
+               </div>
+               </div>
+              </div>
+
+              <div class="mail">
+              
+                <div class="mail-checklist">
+                 <label for="mail30">Considera los suplementos</label>
+                </div>
+              
+                <div class="mail-inside">Varios suplementos promueven la reducción del estrés y la ansiedad. Encontrarás aquí un breve resumen de algunos de los más comunes:
+                 <ul style="list-style-image:url(corazon.png);">
+                  <li>
+                    Bálsamo de limón: El bálsamo de limón pertenece a la familia de la menta que ha sido estudiada por sus efectos contra la ansiedad.
+                   </li>  
+                  <li> 
+                    Ácidos grasos Omega 3: Un estudio demostró que los estudiantes de medicina que recibieron suplementos de omega 3 experimentaron una reducción del 20% en los síntomas de la ansiedad.
+                  </li>
+                   <li> 
+                    Ashwagandha: La ashwagandha es una hierba que se usa en la medicina ayurvédica para tratar el estrés y la ansiedad. Varios estudios sugieren que es efectiva.
+                   </li>
+                   <li>
+                    Té verde: El té verde contiene muchos antioxidantes polifenólicos, que proporcionan beneficios a la salud. Puede reducir el estrés y la ansiedad al incrementar los niveles de serotonina. 
+                  </li>  
+                  <li> 
+                    Valeriana: La raíz de valeriana es una popular ayuda para dormir, debido a su efecto tranquilizante. Contiene ácido valerénico, el cual altera los receptores de ácido gama-aminobutíricos (GABA, en inglés) para reducir la ansiedad.  
+                  </li>
+                   <li> 
+                    Kava: La kava es un miembro psicoactivo de la familia de la pimienta. Se ha utilizado como sedante en el Pacífico Sur, y se está usando cada vez más en Europa y en EE. UU. para tratar el estrés y la ansiedad moderados. 
+                  </li>
+                 </ul>
+                 Algunos suplementos pueden interactuar con los medicamentos o tener efectos secundarios, así que deberías consultar con un médico si tienes alguna afección.
+<br>
+                 Compra ashwagandha, suplementos de omega-3, té verde y bálsamo de limón en línea.  </div>
+                
+               
+                <div class="mail-doc">
+                 <div class="mail-doc-wrapper">
+                 
+                 </div>
+                 <div class="mail-doc-icons">
+                </div>
                 </div>
                </div>
-              </div>
-             </div>
-             <div class="mail-textarea">
-              <input type="text" placeholder="Write a comment...">
-              <div class="textarea-icons">
-               <div class="attach">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-paperclip">
-                 <path d="M21.44 11.05l-9.19 9.19a6 6 0 01-8.49-8.49l9.19-9.19a4 4 0 015.66 5.66l-9.2 9.19a2 2 0 01-2.83-2.83l8.49-8.48" /></svg>
+             
+               <div class="mail">
+              
+                <div class="mail-checklist">
+                 <label for="mail30">Reduce tu ingesta de cafeína</label>
+                </div>
+              
+                <div class="mail-inside">
+                  La cafeína es un estimulante que se encuentra en el café, té, chocolate y en las bebidas energizantes. Altas dosis pueden incrementar la ansiedad.
+<br>
+Las personas tienen diferentes umbrales para la cantidad de cafeína que pueden tolerar.
+<br>
+Si observas que la cafeína te pone nervioso o ansioso, considera dejar de consumirla.
+<br>
+Aunque muchos estudios demuestran que el café puede ser saludable con moderación, esto no aplica para todos. En general, cinco o menos tazas al día se consideran una cantidad moderada.
+                 </div>
+                
+               
+                <div class="mail-doc">
+                 <div class="mail-doc-wrapper">
+                 
+                 </div>
+                 <div class="mail-doc-icons">
+                </div>
+                </div>
                </div>
-               <div class="send">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send">
-                 <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" /></svg>
+             
+               <div class="mail">
+              
+                <div class="mail-checklist">
+                 <label for="mail30">Masticar goma de mascar</label>
+                </div>
+              
+                <div class="mail-inside">
+                  Para un alivio del estrés súper fácil y rápido prueba masticar una barra de goma de mascar.
+<br>
+                  Un estudio demostró que las personas que masticaron goma de mascar tenían un mayor sentido de bienestar y menor estrés.
+                 <br> 
+                  Una explicación es que masticar goma de mascar ocasiona ondas cerebrales similares a las de las personas relajadas. Otra es que masticar goma de mascar promueve el flujo de sangre a tu cerebro.
+                  <br>
+                  Adicionalmente, un estudio reciente demostró que el alivio del estrés era mayor cuando las personas masticaban con más fuerza.
+                  <br>
+                  Compra goma de mascar en línea.  
+                </div>
+                
+               
+                <div class="mail-doc">
+                 <div class="mail-doc-wrapper">
+                 
+                 </div>
+                 <div class="mail-doc-icons">
+                </div>
+                </div>
                </div>
-              </div>
-             </div>
+             
+               <div class="mail">
+              
+                <div class="mail-checklist">
+                 <label for="mail30"> Pasa tiempo con tus amigos y familiares</label>
+                </div>
+              
+                <div class="mail-inside">
+                  El apoyo social de los amigos y la familia puede ayudarte a sobrellevar los momentos estresantes.
+<br>
+                  Ser parte de una red de amigos te da sensación de pertenencia y autoestima, lo que puede ayudarte en momentos difíciles.
+                  <br>
+                  Un estudio determinó que, para las mujeres en particular, pasar tiempo con los amigos y los hijos ayuda a liberar oxitocina, un relajante natural. Este efecto se llama “cuidar y hacer amigos” y es contrario a la respuesta de lucha o huida.
+                  <br>
+                  Ten presente que tanto los hombres como las mujeres se benefician de la amistad.
+                  <br>
+                  Otro estudio determinó que los hombres y las mujeres con menos relaciones sociales tenían más probabilidad de sufrir depresión y ansiedad.  
+                </div>
+                
+               
+                <div class="mail-doc">
+                 <div class="mail-doc-wrapper">
+                 
+                 </div>
+                 <div class="mail-doc-icons">
+                </div>
+                </div>
+               </div>
+
+               <div class="mail">
+              
+                <div class="mail-checklist">
+                 <label for="mail30">Ríe</label>
+                </div>
+              
+                <div class="mail-inside">Es difícil sentir ansiedad cuando te ríes. Es bueno para tu salud y existen algunas formas en que puede ayudar a liberar el estrés:
+                 <ul style="list-style-image:url(corazon.png);">
+                   <li>
+                    Reduce tu respuesta al estrés.
+                   </li>
+                    <li> 
+                      Reduce la tensión al relajar tus músculos.  
+                    </li>  </ul>
+                    A largo plazo, la risa también puede ayudarte a mejorar tu sistema inmunitario y tu estado de ánimo.
+<br>
+                    Un estudio entre personas con cáncer determinó que las personas en el grupo de la risa experimentaron mayor reducción del estrés que las que simplemente estaban distraídas.
+                    <br>
+                    Intenta ver un programa de televisión divertido o pasar tiempo con amigos que te hagan reír.</div>
+                
+               
+                <div class="mail-doc">
+                 <div class="mail-doc-wrapper">
+                 
+                 </div>
+                 <div class="mail-doc-icons">
+                </div>
+                </div>
+               </div>
+
+               <div class="mail">
+              
+                <div class="mail-checklist">
+                 <label for="mail30">Aprende a decir no</label>
+                </div>
+              
+                <div class="mail-inside">
+                  No tienes control sobre todo lo que te estresa, pero sí puedes controlar algunos factores.
+<br>
+                  Toma control de los aspectos de tu vida que puedes cambiar y que te ocasionan estrés.
+                  <br>
+                  Una manera de hacerlo es decir “no” con más frecuencia.
+                  <br>
+                  Esto es especialmente cierto si te das cuenta que aceptas más de lo que puedes manejar. Asumir demasiadas responsabilidades te puede dejar con la sensación de agobio.
+                  <br>
+                  Ser selectivo con lo que aceptas, y decir no a cosas que incrementarán tu carga innecesariamente, puede reducir tus niveles de estrés.  
+                </div>
+                
+               
+                <div class="mail-doc">
+                 <div class="mail-doc-wrapper">
+                 
+                 </div>
+                 <div class="mail-doc-icons">
+                </div>
+                </div>
+               </div>
+
+               <div class="mail">
+              
+                <div class="mail-checklist">
+                 <label for="mail30">Aprende a evitar la procrastinación</label>
+                </div>
+              
+                <div class="mail-inside">
+                  Otra forma de controlar tu estrés es tener control de tus prioridades y dejar de postergar las cosas.
+                  <br>
+                  La postergación puede ocasionar que actúes de manera reactiva, lo que te hará tambalear para lograr hacerlo todo. Esto puede ocasionar estrés, lo cual afecta negativamente tu salud y la calidad del sueño.
+                  <br>
+                  Hazte el hábito de preparar una lista de pendientes, organizada por prioridad. Date plazos realistas y trabaja en tu lista.
+                  <br>
+                  Trabaja en las cosas que necesitas hacer hoy y hazlo en forma ininterrumpida. Cambiar de una tarea a otra o realizar muchas a la vez puede ser estresante también.
+
+                </div>
+                
+               
+                <div class="mail-doc">
+                 <div class="mail-doc-wrapper">
+                 
+                 </div>
+                 <div class="mail-doc-icons">
+                </div>
+                </div>
+               </div>
+
+               <div class="mail">
+              
+                <div class="mail-checklist">
+                 <label for="mail30">Practica la conciencia plena</label>
+                </div>
+              
+                <div class="mail-inside">
+                  La conciencia plena o mindfulness describe prácticas que te fijan en el momento presente.
+                  <br>
+Puede ayudarte a combatir los efectos de los pensamientos negativos que inducen la ansiedad.
+<br>
+Existen varios métodos para incrementar tu conciencia plena, incluyendo la terapia cognitiva basada en la conciencia plena, la reducción del estrés basada en la conciencia plena, el yoga y la meditación.
+<br>
+Un estudio reciente en los estudiantes universitarios sugirió que la conciencia plena puede ayudar a incrementar la autoestima, la que a su vez reduce los síntomas de ansiedad y depresión. </div>
+                
+               
+                <div class="mail-doc">
+                 <div class="mail-doc-wrapper">
+                 
+                 </div>
+                 <div class="mail-doc-icons">
+                </div>
+                </div>
+               </div>
+
             </div>
             

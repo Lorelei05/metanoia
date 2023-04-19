@@ -6,6 +6,7 @@
          @vite(['resources/css/app.css'])
          @vite(['resources/css/login.css'])
          @vite(['resources/js/login.js'])
+		 
         <title>Metanoia</title>
         
         
@@ -15,25 +16,21 @@
 		<form action="#">
             
 			<h1>Crear perfil</h1>
-            
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-			
-			<input type="text" placeholder="Usuario" />
-			<input type="email" placeholder="Correo" />
-			<input type="password" placeholder="Contraseña" />
+
+			<input type="text" placeholder="Usuario" id="nombre"/>
+			<input type="email" placeholder="Correo" id="correo"/>
+			<input type="password" placeholder="Contraseña" id="contraseña"/>
+			<input type="text" placeholder="Matricula" id="matricula"/>
+			<input type="number" placeholder="Peso" id="peso"/>
+			<input type="number" placeholder="Edad" id="edad"/>
+
 			<button>Registrarse</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
-		<form action="#">
+		<form action="#" > <!--Aqui va el link para ir a la interfaz de usuario-->
         @vite('foto')
       <center>  <img class="w-28" src="{{asset('meta.png')}}" > </center>
-  
-  
 			<input type="email" placeholder="Correo" />
 			<input type="password" placeholder="Contraseña" />
 			<a href="#">¿Olvidaste tu contraseña?</a>
@@ -54,8 +51,9 @@
 				<h1>¡Hola amigo!</h1>
                 
 				<p>Ingresa tus datos para comenzar tu viaje con nosotros</p>
-				<button class="ghost" id="signUp">Registrarse</button>
+				<button class="ghost" id="signUp" >Registrarse</button>
 			</div>
 		</div>
 	</div>
+	
 </div>

@@ -11,6 +11,7 @@ export default defineConfig({
                 'resources/css/login.css',
                 'resources/js/inicioo.js',
                 'resources/css/inicio.css',
+                'resources/css/test.css',
                 'resources/js/usuario.js',
                 'resources/css/usuario.scss',
                 

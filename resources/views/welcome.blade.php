@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
          @vite(['resources/css/app.css'])
-         @vite(['resources/css/login.css'])
+         @vite(['resources/js/app.js'])
+         @vite(['resources/css/style.css'])
      
         <title>Metanoia</title>
         
@@ -75,12 +76,7 @@
       <br>
       <br>
       <br>
-          <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Close menu</span>
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
+         
         </div>
           </div>
         </div>
@@ -116,7 +112,7 @@
         <br>
           <br>
           <br>	
-		<!-- 	<div class="contenedor">	
+		<div class="contenedor">	
 				<div class="texto">
 					<h3 class="titulo">¿Qué es Metanóia?</h3>
 					<p>
@@ -141,8 +137,8 @@
                         <p class = "textDescarga">Da clic en el siguiente bontón para ir a la Play Store y decargar la aplicación móvil...</p>
                 </center>
                 <br><br><br>
-				<form class="formulario" action=" ">--> <!--Aquí pon l link para descargar la app-->
-				<!--
+				<form class="formulario" action=" "> <!--Aquí pon l link para descargar la app-->
+				
 					<input class="boton" type="submit" value="Descargar App Móvil">
 				</form>
 			</section>

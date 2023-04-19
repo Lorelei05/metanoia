@@ -18,17 +18,35 @@ use App\Http\Controllers;
 
 
 Route::get('/', function() {
-    return view('usuario');
-});
+    return view('uno');
+})->name('welcome.index');
+
+
+Route::get('/uno', function() {
+    return view('welcome');
+})->name('welcome.index');
+
 
 
 Route::get('/app', function() {
     return view('app');
 })->name('app.index');
 
-Route::get('/login', function() {
+
+Route::get('/welcome', function() {
     return view('login');
 })->name('login.index');
+
+/*Route::get('/login', function() {
+    return view('login');
+});
+
+
+
+/*
+Route::get('/login', function() {
+    return view('login');
+})->name('usuario.index');*/
 
 
 //Route::get('/app', 'appController@app')->name('app.app');
