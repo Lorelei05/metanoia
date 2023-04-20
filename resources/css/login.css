@@ -38,7 +38,7 @@ span {
 }
 
 a {
-	color: #333;
+	color: #f5f4ef;
 	font-size: 14px;
 	text-decoration: none;
 	margin: 15px 0;
@@ -46,7 +46,7 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #fbbf24;
+	border: 1px solid #ffffff;
 	background-color: #facc15;
 	color: #FFFFFF;
 	font-size: 12px;
@@ -160,7 +160,7 @@ input {
 }
 
 .overlay {
-	background: #f97316;
+	background: #f9f7f6;
 	background: -webkit-linear-gradient(to right, #f97316, #fcd34d);
 	background: linear-gradient(to right, #fcd34d, #f97316);
 	background-repeat: no-repeat;

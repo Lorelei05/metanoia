@@ -26,6 +26,9 @@
 
 			<button>Registrarse</button>
 		</form>
+		
+
+
 	</div>
 	<div class="form-container sign-in-container">
 		<form action="#" > <!--Aqui va el link para ir a la interfaz de usuario-->
@@ -33,8 +36,8 @@
       <center>  <img class="w-28" src="{{asset('meta.png')}}" > </center>
 			<input type="email" placeholder="Correo" />
 			<input type="password" placeholder="Contraseña" />
-			<a href="#">¿Olvidaste tu contraseña?</a>
-			<button>Iniciar sesion</button>
+			<br>
+			<button><a href="{{ route('usuario.index') }}">Iniciar sesion</a></button>
 		</form>
 	</div>
 	<div class="overlay-container">
@@ -45,7 +48,7 @@
 		
 				<p>Para continuar conectado con nostros, inicia sesion con tus datos</p>
                 
-				<button class="ghost" id="signIn">Iniciar sesion</button>
+				<button class="ghost" id="signIn">Iniciar Sesion</button>
 			</div>
 			<div class="overlay-panel overlay-right">
 				<h1>¡Hola amigo!</h1>

@@ -9,7 +9,7 @@
         <title>Metanoia</title>
         <div class="container">
           <div class="user-profile-area">
-           <div class="task-manager">¡Hola!</div>
+           <div class="task-manager">BIENVENIDO</div>
            <div class="side-wrapper">
             <div class="user-profile">
              <img src="https://assets.codepen.io/3364143/Screen+Shot+2020-08-01+at+12.24.16.png" alt="" class="user-photo">

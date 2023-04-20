@@ -14,6 +14,7 @@ export default defineConfig({
                 'resources/css/test.css',
                 'resources/js/usuario.js',
                 'resources/css/usuario.scss',
+               
                 
             ],
             refresh: true,
